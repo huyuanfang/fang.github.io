@@ -48,10 +48,10 @@ section {
 }
 
 .profile-image {
-  width: 200px;
-  height: 280px;
+  width: 250px;
+  height: 250px;
   object-fit: cover;
-  border-radius: 40% / 30%;
+  border-radius: 50%;
   object-position: 60% center;
 }
 
