@@ -1,0 +1,186 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+nav {
+  margin-top: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+  padding: 0.5rem;
+}
+
+nav a:hover {
+  background: #555;
+  border-radius: 4px;
+}
+
+section {
+  padding: 4rem 2rem;
+}
+
+#about {
+  background: #f4f4f4;
+}
+
+.profile-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.profile-image {
+  width: 200px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 40% / 30%;
+  object-position: 60% center;
+}
+
+.education {
+  margin-top: 2rem;
+}
+
+.education ul {
+  list-style-type: none;
+  margin-top: 1rem;
+}
+
+.education li {
+  margin: 0.5rem 0;
+}
+
+.volunteer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.volunteer-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.volunteer-card:hover {
+  transform: translateY(-5px);
+}
+
+.volunteer-card h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.volunteer-card .duration {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.volunteer-card .hours {
+  color: #2196F3;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.project-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.experience-card {
+  background: #ffffff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  transition: all 0.3s ease;
+  border-left: 4px solid #4CAF50;
+}
+
+.experience-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.experience-card h3 {
+  color: #2e7d32;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.experience-card .location {
+  color: #555;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.experience-card .date {
+  color: #777;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-card .role {
+  color: #2196F3;
+  font-weight: bold;
+  font-size: 0.95rem;
+}
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 1rem;
+  }
+  
+  section {
+    padding: 2rem 1rem;
+  }
+}
